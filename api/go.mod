@@ -1,7 +1,7 @@
-module github.com/hashicorp/nomad/api
+module github.com/kainoaseto/nomad/api
 
 go 1.12
 
-require (
-    github.com/hashicorp/nomad v0.8.7
-)
+replace github.com/hashicorp/nomad => github.com/kainoaseto/nomad
+
+require github.com/kainoaseto/nomad v0.8.8
